@@ -16,16 +16,14 @@
         <thead>
             <tr>
                 <th>Categoria</th>
-                <th>Categoria pai</th>
                 <th class="text-center">Status</th>
                 <th class="text-center">Opções</th>
             </tr>
         </thead>
         <tbody>
-            <!--<?php foreach($categorias as $cat) { ?>
+            <?php foreach($categoria as $cat) { ?>
                 <tr>
                     <td><?= $cat->nome ?></td>
-                    <td><?= $this->categoria->getCatPaiNome($cat->id_categoriapai) ?></td>
                     <td class="text-center">
                         <?= ($cat->ativo == 1 ?
                             '<i class="text-success fa fa-check-square" aria-hidden="true" title="Ativo"></i>
@@ -40,7 +38,7 @@
                         </a>
                     </td>
                 </tr>
-            <?php } ?> -->
+            <?php } ?>
         </tbody>
     </table>
 </section>

@@ -31,3 +31,26 @@
     width: 100%;
     height: 100%;
   }
+
+  /*==========================================================================*/
+/* CARDS VERTICAL */
+  @media screen and (min-width: 993px) and (max-width: 1200px) { /*XL Tela Super grande*/
+    .card_vertical {
+      width: 100%;
+    }
+  }
+ @media screen and (min-width: 769px) and (max-width: 992px) { /*LG Muito Grande*/
+   .card_vertical {
+     width: 310px;
+   }
+ }
+ @media screen and (min-width: 577px) and (max-width: 768px) { /*MD Tela grande*/
+   .card_vertical {
+     width: 455%;
+   }
+ }
+ @media screen and (min-width: 0px) and (max-width: 576px) { /*SM Tela média*/
+   .card_vertical {
+     width: 100%;
+   }
+ }

@@ -156,9 +156,10 @@
          </div>
        </div> <!-- Fim Paginação -->
      </div>
+<!-- INICIO DOS CARDS VERTICAIS -->
      <div class="col-sm-3 col-md-3 col-lg-3">
        <!-- <div class="col-sm-12 col-md-12 col-lg-12 mb-3"> -->
-         <div class="card mt-3 mb-3" style="width: 100%; background: orange">
+         <div class="card mt-3 mb-3 card_vertical">
             <div class="card-header">
               Destaque
             </div>
@@ -170,7 +171,7 @@
           </div>
        <!-- </div> -->
        <!-- <div class="col-sm-12 col-md-3 col-lg-12"> -->
-         <div class="card mb-3" style="width: 100%; background: pink">
+          <div class="card mb-3 card_vertical">
             <div class="card-header">
               As mais curtidas
             </div>

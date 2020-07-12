@@ -1,0 +1,25 @@
+CREATE TABLE grupo(
+id INTEGER PRIMARY KEY AUTO_INCREMENT,
+perfil VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE usuario(
+id INTEGER PRIMARY KEY AUTO_INCREMENT,
+id_grupo INTEGER NOT NULL,
+nome VARCHAR(80) NOT NULL,
+sobrenome VARCHAR(80) NOT NULL,
+email VARCHAR(254) NOT NULL,
+senha VARCHAR(254) NOT NULL,
+dt_criacao TIMESTAMP,
+user_status BOOLEAN DEFAULT 1,
+CONSTRAINT fk_id_grupo FOREIGN KEY(id_grupo) REFERENCES grupo (id) 
+);
+
+CREATE TABLE `categoria` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(254) NOT NULL,
+  `id_categoriapai` int(11) DEFAULT NULL,
+  `ativo` tinyint(1) DEFAULT '1',
+  `meta_link` varchar(254) DEFAULT NULL,
+  `ultima_atualizacao` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

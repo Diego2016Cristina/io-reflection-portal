@@ -33,8 +33,12 @@ class Categoria extends CI_Controller {
     }
 
     $dados['secundaria'] = 'dashboard/categoria/modulo.php';
-    $dados['data'] = $data;
+    $dados['dados'] = $data;
 
     $this->load->view('dashboard/home', $dados);
+  }
+
+  public function core() {
+    echo '<pre>'; print_r($this->input->post()); echo "</pre>"; exit;
   }
 }

@@ -17,59 +17,39 @@
 
       <?php
 
-          //errosValidacao();
-          //getMsg('msgCadastro');
+          errosValidacao();
+          getMsg('msgCadastro');
 
       ?>
 
       <div class="form-group">
           <label class="col-sm-2 control-label">Nome categoria</label>
               <div class="col-sm-8">
-                  <input type="text" name="nome" class="form-control" placeholder="Nome">
+                  <input type="text" name="nome" class="form-control" placeholder="Nome" value="<?php echo ($dados != NULL ? $dados->nome: set_value('nome')); ?>">
               </div>
           </div>
 
       <div class="form-group">
-          <label class="col-sm-2 control-label">Categoria pai</label>
-          <div class="col-sm-4">
-              <select name="id_categoriapai" class="form-control">
-                  <option></option>
-                  <!--<?php foreach ( $cat_pai as $cat ) { ?>
-                      <?php if ($dados) { //inicio do if?>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Ativo</label>
+            <div class="col-sm-4">
+                <select name="ativo" class="form-control">
 
-                      <option value="<?= $cat->id ?>" <?= ($dados->id_categoriapai == $cat->id ? 'selected=""' :
-                      '') ?>><?= $cat->nome ?></option>
-
-                  <?php } else { ?>
-
-                      <option value="<?= $cat->id ?>"><?= $cat->nome ?></option>
-
-                  <?php  } //Fim do if ?>
-
-                <?php  } //foreach ?> -->
-              </select>
-          </div>
+                    <?php if ($dados) { //inicio do if?>
+                         <option value="0" <?= ($dados->ativo == 0 ? 'selected=""' : '') ?>>Não</option>
+                         <option value="1" <?= ($dados->ativo == 1 ? 'selected=""' : '') ?>>Sim</option>
+                    <?php } else { ?>
+                        <option value="0">Não</option>
+                        <option value="1" selected="">Sim</option>
+                    <?php  } //Fim do if ?>
+                </select>
+            </div>
+        </div>
       </div>
 
-      <div class="form-group">
-          <label class="col-sm-2 control-label">Ativo</label>
-          <div class="col-sm-4">
-              <select name="ativo" class="form-control">
-
-                  <!--<?php if ($dados) { //inicio do if?>
-                       <option value="0" <?= ($dados->ativo == 0 ? 'selected=""' : '') ?>>Não</option>
-                       <option value="1" <?= ($dados->ativo == 1 ? 'selected=""' : '') ?>>Sim</option>
-                  <?php } else { ?>
-                      <option value="0">Não</option>
-                      <option value="1" selected="">Sim</option>
-                  <?php  } //Fim do if ?> -->
-              </select>
-          </div>
-      </div>
-
-      <!--<?php  if ($dados) { ?>
+      <?php  if ($dados) { ?>
           <input type="hidden" name="id_categoria" value="<?= $dados->id ?>" >
-      <?php } //fim if ?> -->
+      <?php } //fim if ?>
 
       <div class="form-group">
           <div class="col-sm-offset-2 col-sm-10">

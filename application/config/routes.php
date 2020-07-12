@@ -6,6 +6,7 @@ $route['administrator']        = 'dashboard/Administrator';
 $route['acessar']              = 'dashboard/Administrator/doAutenticar';
 $route['dashhome']             = 'dashboard/home';
 $route['categoria']            = 'dashboard/categoria';
+$route['core']                 = 'dashboard/categoria/core';
 $route['categoriaModulo']      = 'dashboard/categoria/modulo';
 $route['sair']                 = 'dashboard/Administrator/sair';
 $route['404_override']         = '';

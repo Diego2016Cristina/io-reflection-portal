@@ -39,6 +39,19 @@ class Categoria extends CI_Controller {
   }
 
   public function core() {
-    echo '<pre>'; print_r($this->input->post()); echo "</pre>"; exit;
+    $this->form_validation->set_rules('nome', 'nome', 'trim|required|min_length[5]');
+
+    if($this->form_validation->run() == TRUE) {
+
+      $dadosCategoria['nome'] = $this->input->post('nome');
+      $dadosCategoria['ativo'] = $this->input->post('ativo');
+
+      $this->categoria->doInsert($dadosCategoria);
+      redirect('categoriaModulo', 'refresh');
+
+    }else {
+      $this->modulo();
+    }
+    
   }
 }

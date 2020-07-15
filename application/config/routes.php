@@ -8,6 +8,7 @@ $route['dashhome']             = 'dashboard/home';
 $route['categoria']            = 'dashboard/categoria';
 $route['core']                 = 'dashboard/categoria/core';
 $route['categoriaModulo']      = 'dashboard/categoria/modulo';
+$route['usuario_login']        = 'usuario/login';
 $route['sair']                 = 'dashboard/Administrator/sair';
 $route['404_override']         = '';
 $route['translate_uri_dashes'] = FALSE;

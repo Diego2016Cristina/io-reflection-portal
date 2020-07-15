@@ -7,7 +7,7 @@
     <div class="container-fluid bg-primary">
       <div class="row">
         <div class="col-sm-12 bg-success">
-          teste
+
         </div>
       </div>
   </body>

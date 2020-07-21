@@ -16,6 +16,8 @@
     <meta name="generator" content="">
     <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/200619pr2331.min.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/main.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/style_all.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/section_degustador.css') ?>">
   </head>
   <body>
     <!-- Base do template para todas as páginas seguintes -->

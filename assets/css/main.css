@@ -1,17 +1,6 @@
-/*REMOVE AS MARGEM DA DIREITA E DA ESQUERDA DE UMA GRID*/
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
-  > .col,
-  > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
 /*ATACA A IMAGEM E TUDO QUE TEM DENTRO DELA*/
    .tcc {
-     filter: brightness(50%);
+     filter: brightness(90%);
    }
 /*AO PASSAR O MOUSE NA IMAGEM*/
    .tcc:hover {
@@ -54,7 +43,7 @@
   width: 96%;
   height: 140px;
   margin-bottom: -38px;
-  border: 4px solid orange;
+  border-radius: 5px;
 }
 
 /* CONFIGURAÇÕES DAS IMAGENS COM MEDIA QUERY */

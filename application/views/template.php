@@ -15,6 +15,7 @@
     <meta name="author" content="Diego Xavier">
     <meta name="generator" content="">
     <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/200619pr2331.min.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/menu.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/main.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/style_all.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/article.css') ?>">

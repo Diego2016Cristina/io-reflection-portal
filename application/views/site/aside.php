@@ -19,7 +19,8 @@
     <li class="list-group-item">Vestibulum at eros</li>
   </ul>
 </div>
-<ul class="list-group">
+<!-- =========================================================================== -->
+<ul class="list-group mb-3">
   <li class="list-group-item d-flex justify-content-between align-items-center">
     Cras justo odio
     <span class="badge badge-primary badge-pill">14</span>

@@ -1,0 +1,10 @@
+.page-footer {
+  background-color: #000;
+}
+.page-footer h5, a {
+  color: #fff;
+}
+
+#fraseFooter , #fraseFooter2, #fraseFooter3{
+  background: #df3371;
+}

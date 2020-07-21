@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/style_all.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/article.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/aside.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/footer.css') ?>">
   </head>
   <body>
     <!-- Base do template para todas as páginas seguintes -->

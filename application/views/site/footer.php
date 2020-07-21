@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="page-footer font-small pt-4" style="background: Teal">
+<footer class="page-footer font-small pt-4">
 
   <!-- Footer Links -->
   <div class="container text-center text-md-left">
@@ -12,9 +12,8 @@
 
         <!-- Content -->
         <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
+        <span id="fraseFooter">Here you can use rows and columns to organize </span> <span id="fraseFooter2"> your footer content. Lorem ipsum dolor sit amet, </span>
+          <span id="fraseFooter3">consectetur adipisicing elit.</span>
 
       </div>
       <!-- Grid column -->

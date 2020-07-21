@@ -1,3 +1,36 @@
+/*ACATANDO QUADRADO EM VOLTA DO SECTION*/
+  #section_main {
+    padding-right: 8px
+  }
+/*FIM*/
+/* CONFIGURAÇÕES QUADRADO DO SECTION COM MEDIA QUERY */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  #section_main {
+    padding-right: 5px
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  #section_main {
+    padding-right: 5px
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  #section_main {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  #section_main {
+    padding-right: 0px;
+  }
+}
+/*FIM*/
+
+
+
 /*ATACA A IMAGEM E TUDO QUE TEM DENTRO DELA*/
    .tcc {
      filter: brightness(90%);
@@ -78,24 +111,3 @@
 /* FIM DAS CONFIGURAÇÕES DAS IMAGENS COM MEDIA QUERY */
 
   /*==========================================================================*/
-/* CARDS VERTICAL */
-  @media screen and (min-width: 993px) and (max-width: 1200px) { /*XL Tela Super grande*/
-    .card_vertical {
-      width: 155px;
-    }
-  }
- @media screen and (min-width: 769px) and (max-width: 992px) { /*LG Muito Grande*/
-   .card_vertical {
-     width: 310px;
-   }
- }
- @media screen and (min-width: 577px) and (max-width: 768px) { /*MD Tela grande*/
-   .card_vertical {
-     width: 455%;
-   }
- }
- @media screen and (min-width: 0px) and (max-width: 576px) { /*SM Tela média*/
-   .card_vertical {
-     width: 100%;
-   }
- }

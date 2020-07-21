@@ -1,6 +1,6 @@
 <div role="main" class="container-fluid">
-   <div class="row">
-     <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+   <div class="row no-gutters">
+     <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9" id="section_main">
        <div class="mt-3">
          <p class="h5 mb-3"> + compartilhados </p>
          <div class="row no-gutters"><!-- style="position: relative; left: -10px" -->
@@ -31,8 +31,13 @@
          </div>
        </div>
        <?php
-          include('section_degustador.php');
+          include('article.php');
        ?>
+   </div>
+   <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+    <?php
+      include('aside.php');
+    ?>
    </div>
 </div>
 </div>

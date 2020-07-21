@@ -24,7 +24,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="btn btn-success btn-sm mt-1" href="Teste">+ Adicionar frase</a>
+          <a class="btn btn-success btn-sm mt-1" href="<?= base_url('usuario_login'); ?>" target="_blank">+ Adicionar frase</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">

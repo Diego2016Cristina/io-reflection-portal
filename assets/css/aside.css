@@ -1,0 +1,28 @@
+/* CARDS VERTICAL */
+.card_vertical {
+  position: relative;
+  top: 0px;
+  margin: 0 auto;
+}
+
+  @media screen and (min-width: 993px) and (max-width: 1200px) { /*XL Tela Super grande*/
+    .card_vertical {
+      width: 98%;
+    }
+  }
+ @media screen and (min-width: 769px) and (max-width: 992px) { /*LG Muito Grande*/
+   .card_vertical {
+     width: 100%;
+     font-size: 0.8em;
+   }
+ }
+ @media screen and (min-width: 577px) and (max-width: 768px) { /*MD Tela grande*/
+   .card_vertical {
+     width: 99%;
+   }
+ }
+ @media screen and (min-width: 0px) and (max-width: 576px) { /*SM Tela média*/
+   .card_vertical {
+     width: 100%;
+   }
+ }

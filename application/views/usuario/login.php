@@ -1,61 +1,55 @@
 
-<style>
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
-  > .col,
-  > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-img {
-    width: 100%;
-    height: 100%;
-  }
-</style>
 <html>
   <head>
     <title></title>
-    <link rel="stylesheet" href="assets/css/200619pr2331.min.css">
+    <link rel="stylesheet" href="<?= base_url('assets/css/site/200619pr2331.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/loginUsuario/allStyle.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/loginUsuario/login.css'); ?>">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row no-gutters" style="height: 100%">
-        <div class="col-md-4 col-sm-4">
-          <img src="<?= base_url('assets/img/bannerTeste.jpg'); ?>" alt="" />
-        </div>
-        <div class="col-sm-8">
-          <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
-              <div class="row"></div>
-              <div class="row">
-                <div class="col-sm-12">
-                  <form class="mt-5" style="background: #999999; padding: 10px">
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Endereço de email</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
-                      <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Senha</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-                    </div>
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                  </form>
+    <div class="container bl-main">
+      <div class="row mt-4">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="bl-interno mt-5">
+            <p id="titulo-bl-0"><?= $titulo ?></p>
+            <div class="row">
+              <div class="col-sm-6" id="bloco-um">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="titulo-bl-1">
+                      <?= $Subtitulo ?>
+                    </p>
+                    <p class="titulo-bl-1">
+                      Não perca tempo e acesse, se caso ainda não tenha uma conta
+                      crie hoje mesmo é rápido e gratuíto.
+                      Clique: <a href="#" style="color: #003300">Criar minha conta</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <img src="<?= base_url('assets/img/logo-exemp.jpg'); ?>" id="img-bl-1">
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-sm-12"></div>
+              <div class="col-sm-6">
+                <form action="" method="post" id="formulario">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" style="color: #fff">Email/ Usuário</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" style="color: #fff">Senha</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1" style="color: #fff">Manter-me conectado</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Acessar</button>
+                </form>
               </div>
             </div>
-            <div class="col-sm-2"></div>
           </div>
         </div>
       </div>

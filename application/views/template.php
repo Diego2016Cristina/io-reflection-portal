@@ -14,13 +14,13 @@
     <meta name="description" content="Portal, Reflexões, mensagens, amor, pensamento, dia, coração, love">
     <meta name="author" content="Diego Xavier">
     <meta name="generator" content="">
-    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/200619pr2331.min.css') ?>">
-    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/menu.css') ?>">
-    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/main.css') ?>">
-    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/style_all.css') ?>">
-    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/article.css') ?>">
-    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/aside.css') ?>">
-    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/footer.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/site/200619pr2331.min.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/site/menu.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/site/main.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/site/style_all.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/site/article.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/site/aside.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/site/footer.css') ?>">
   </head>
   <body>
     <!-- Base do template para todas as páginas seguintes -->

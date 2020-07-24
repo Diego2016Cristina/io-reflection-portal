@@ -3,7 +3,7 @@ body {
 }
 .bl-main {
   background: #0095cd;
-  height: 88%;
+  height: 92.5%;
 }
 .bl-interno {
   margin: 0 auto;
@@ -20,40 +20,53 @@ body {
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .bl-interno {
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
+  }
+  .titulo-bl-1 {
+    text-align: justify;
+  }
+  #formulario {
+    width: 485px;
+  }
+  #tituloT {
+    display: none
+  }
+  #img-bl-1 {
+    display: none
   }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .bl-interno {
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
+  }
+  #formulario {
+    width: 462px;
+  }
+  #tituloT {
+    display: none
+  }
+  #img-bl-1 {
+    display: none
   }
 }
-/*
-.bl-interno {
-  position: relative;
-  top: -34px;
-  width: 100%;
-  background: red;
-}
-#img-bl-1 {
-  width: 100%;
-}
-*/
 @media screen and (min-width: 0px) and (max-width: 576px) {
   .bl-interno {
-    position: relative;
-    top: 10px;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .titulo-bl-1 {
+    text-align: justify;
+  }
+  #formulario {
     width: 100%;
   }
-  #bloco-um {
-    display: none;
+  #tituloT {
+    display: none
   }
-
-  #formulario {
-    position: relative;
-    top: 40px;
+  #img-bl-1 {
+    display: none
   }
 }
 /*Fim*/

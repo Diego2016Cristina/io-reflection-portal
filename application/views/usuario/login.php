@@ -9,11 +9,11 @@
   <body>
     <div class="container bl-main">
       <div class="row mt-4">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-12">
           <div class="bl-interno mt-5">
             <p id="titulo-bl-0"><?= $titulo ?></p>
             <div class="row">
-              <div class="col-sm-6" id="bloco-um">
+              <div class="col-sm-12 col-md-12" id="bloco-um">
                 <div class="row">
                   <div class="col-sm-12">
                     <p class="titulo-bl-1">
@@ -32,9 +32,10 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6">
+              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                 <form action="" method="post" id="formulario">
                   <div class="form-group">
+                    <h2 style="color: #fff" id="tituloT">Entre com seus dados</h2>
                     <label for="exampleInputEmail1" style="color: #fff">Email/ Usuário</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                   </div>

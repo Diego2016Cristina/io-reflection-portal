@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
   <head>
     <title></title>
@@ -7,18 +7,15 @@
     <link rel="stylesheet" href="<?= base_url('assets/css/loginUsuario/login.css'); ?>">
   </head>
   <body>
-    <div class="container bl-main">
-      <div class="row mt-4">
-        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-12">
-          <div class="bl-interno mt-5">
+    <div class="container">
+      <div class="row" id="total_bloco">
+        <div class="col-sm-12 col-md-12" style="height: 512px">
+          <div class="bl-interno">
             <p id="titulo-bl-0"><?= $titulo ?></p>
-            <div class="row">
-              <div class="col-sm-12 col-md-12" id="bloco-um">
+            <div class="row" id="bl-titulo">
+              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6" id="bloco-um">
                 <div class="row">
                   <div class="col-sm-12">
-                    <p class="titulo-bl-1">
-                      <?= $Subtitulo ?>
-                    </p>
                     <p class="titulo-bl-1">
                       Não perca tempo e acesse, se caso ainda não tenha uma conta
                       crie hoje mesmo é rápido e gratuíto.

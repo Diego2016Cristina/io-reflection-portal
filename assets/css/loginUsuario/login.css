@@ -1,24 +1,42 @@
 body {
-  background-color: #002c77
+  background-color: #002c77;
 }
-.bl-main {
+#total_bloco {
   background: #0095cd;
-  height: 92.5%;
+  position: relative;
+  box-shadow: 5px 5px 16px #000;
+}
+#bl-titulo {
+  height: 360px;
 }
 .bl-interno {
+  padding-top: 20px;
   margin: 0 auto;
   width: 80%;
 }
 /* CONFIGURAÇÕES DOS BLOCOS COM MEDIA QUERY */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
+  #total_bloco {
+    background: #0095cd;
+    position: relative;
+  }
+  #bl-titulo {
+    height: 360px;
+  }
+  #bl-titulo {
+    padding-bottom: 25px;
+  }
   .bl-interno {
-    margin: 0 auto;
-    width: 80%;
+    margin: 40px auto;
+    padding-top: 15px;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .bl-interno {
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin: 0 auto;
     width: 70%;
   }
@@ -38,6 +56,8 @@ body {
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .bl-interno {
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin: 0 auto;
     width: 90%;
   }
@@ -51,7 +71,19 @@ body {
     display: none
   }
 }
-@media screen and (min-width: 0px) and (max-width: 576px) {
+@media screen and (min-width: 417px) and (max-width: 576px) {
+  #bl-titulo {
+    height: 380px;
+  }
+  #bl-titulo {
+    margin: 0 auto;
+    background-color: transparent;
+  }
+  .bl-interno {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100%;
+  }
   .bl-interno {
     margin: 0 auto;
     width: 90%;
@@ -69,6 +101,29 @@ body {
     display: none
   }
 }
+@media screen and (min-width: 0px) and (max-width: 416px) {
+  .bl-interno {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+  }
+  .titulo-bl-1 {
+    text-align: justify;
+  }
+  #formulario {
+    width: 100%;
+  }
+  #tituloT {
+    display: none
+  }
+  #img-bl-1 {
+    display: none
+  }
+}
+
+
 /*Fim*/
 
 .bl-interno #titulo-bl-0 {
